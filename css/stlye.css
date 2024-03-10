@@ -1,0 +1,24 @@
+@import "reset.css";
+@import "header.css";
+@import "footer.css";
+@import "main.css";
+
+body {
+  font-family: <link rel= "stylesheet" as= "style" crossorigin href=
+    "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" /
+    >;
+}
+
+@media screen and (min-width: 380) {
+}
+
+.media-info-msg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
